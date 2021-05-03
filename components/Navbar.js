@@ -10,7 +10,7 @@ const Navbar = () => {
                 <div className='border rounded-3xl shadow flex flex-row'>
                     <p className='p-4 border-r'>Helsinki, Findland</p>
                     <p className='p-4 text-gray-400'>Add Guests</p>
-                    <i className="p-5 border-l fa fa-md fa-search text-red-500"></i>
+                    <i className="p-4 border-l fa fa-md fa-search text-red-500"></i>
                 </div>
             </div>
         </div>
