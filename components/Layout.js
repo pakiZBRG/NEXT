@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import Navbar from './Navbar'
+import Cards from './Cards'
 
 const Layout = (props) => {
     return (
@@ -16,6 +17,7 @@ const Layout = (props) => {
 
             <div className='p-8'>
                 <Navbar/>
+                <Cards/>
                 <div>
                     {props.children}
                 </div>
